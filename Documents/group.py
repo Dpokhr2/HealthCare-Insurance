@@ -9,7 +9,7 @@ df = spark.read.option("header", "True").csv("s3://dpo2/input-data/group.csv")
 df.show()
 df.printSchema()
 
-
+#
 # Filter
 df.filter("Grp_Id IS NULL").show()
 
