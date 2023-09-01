@@ -34,7 +34,7 @@ df2.show()
 
 df2.count()
 df3 = df2.distinct()
-df1.count()
+df3.count()
 
 # Write the data into s3 (Optional)
 
