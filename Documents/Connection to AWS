@@ -1,0 +1,4 @@
+#Use it to connect to AWS from another source (databricks)
+
+spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.access.key", "<Access Key>")
+spark.sparkContext._jsc.hadoopConfiguration().set("fs.s3a.secret.key", "<Secret Key>")
